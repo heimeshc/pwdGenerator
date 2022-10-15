@@ -1,0 +1,41 @@
+body{
+    background-color: #1F2937;
+    color: rgb(203, 203, 203);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    border: white 2px solid;
+    width: 50%;
+    margin: auto;
+    padding: 30px 40px;
+    margin-top: 50px;
+}
+
+.specialText {
+    color: #4ADF86;
+}
+
+button {
+    background-color: rgb(70, 207, 125);
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.pwdOne {
+    background-color: #273549;
+}
+
+.pwdTwo {
+    background-color: #273549;
+}
