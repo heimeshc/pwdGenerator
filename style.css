@@ -58,6 +58,21 @@ button:hover {
     width: 150px;
 }
 
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+a {
+    color: #4ADF86;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(210, 210, 210);
+}
+
 @media  (min-width: 650px) {
     .container{
         max-width: 35%;
