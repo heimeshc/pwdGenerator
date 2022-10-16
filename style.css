@@ -6,10 +6,12 @@ body{
 
 h1 {
     margin: 0px;
+    font-weight: 800;
+    line-height: 35px;
 }
 
 p {
-    margin: 0;
+    margin-top: 6px;
 }
 
 .container {
@@ -19,7 +21,7 @@ p {
     margin: auto;
     padding: 30px 40px;
     margin-top: 50px;
-    box-shadow: rgb(28, 28, 28) 10px 10px;
+    box-shadow: rgb(28, 28, 28) 10px 10px 4px;
 }
 
 .specialText {
@@ -34,10 +36,17 @@ button {
     padding: 10px;
     margin: 20px 0px;
     border: none;
+    
 }
 
 button:hover {
     color: rgb(210, 210, 210);
+}
+
+hr {
+   border: none;
+   height: 1px;
+   background-color: rgb(210, 210, 210);
 }
 
 
@@ -45,6 +54,7 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     gap: 70px;
+    margin: 40px 0px;
 }
 
 .pwdOne, .pwdTwo {
@@ -59,9 +69,9 @@ button:hover {
 }
 
 .link {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 800;
 }
 
 a {
@@ -73,7 +83,7 @@ a:hover {
     color: rgb(210, 210, 210);
 }
 
-@media  (min-width: 650px) {
+@media (min-width: 650px) {
     .container{
         max-width: 35%;
     }

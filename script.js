@@ -17,12 +17,9 @@ pwdbtn.addEventListener("click", () => {
     displayTwo.textContent = " "
 
     for(let i = 0; i < 8; i++){
-        randomOne = Math.floor(Math.random() * 66);
+        randomOne = Math.floor(Math.random() * characters.length);
+        randomTwo = Math.floor(Math.random() * characters.length);
         passOne += characters[randomOne]
-    }
-
-    for(let q = 0; q < 8; q++){
-        randomTwo = Math.floor(Math.random() * 66);
         passTwo += characters[randomTwo]
     }
 
@@ -31,6 +28,4 @@ pwdbtn.addEventListener("click", () => {
 })
 
 
-function generate(){
 
-}
